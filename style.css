@@ -10,6 +10,12 @@
 
 .logo{
     color: #000000;
+    font-family: Raleway, sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 3;
+
 }
 .logo-span,
 .nav-link:hover,
@@ -54,10 +60,49 @@
     color: var(--primary-color);
 }
 
-.job{
+.p-small{
     color: var(--text-color);
 }
 
 .p-description{
     color: var(--text-color);
+}
+
+.address{
+    color: var(--secondary-color);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-link{
+    color: var(--secondary-link-color);
+}
+
+.button{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+body{
+    color: var(--text-color);
+    background-color: #FFFFFF;
+    font-family: roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.link-text{
+    color: var(--primary-color);
+}
+
+.li-button{
+    background-color: #F5F4FA;
 }
