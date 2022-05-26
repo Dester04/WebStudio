@@ -41,3 +41,23 @@
 .list{
     list-style: none;
 }
+
+.head-title{
+    color: var(--primary-color);
+}
+
+.names{
+    color: var(--primary-color);
+}
+
+.h2-title{
+    color: var(--primary-color);
+}
+
+.job{
+    color: var(--text-color);
+}
+
+.p-desritption{
+    color: var(--text-color);
+}
