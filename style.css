@@ -75,8 +75,8 @@
     line-height: 1.2;
 }
 
-.item-description{
-    columns: var(--primary-color);
+.items-descritption{
+    color: var(--primary-color);
 }
 
 .h2-title{
