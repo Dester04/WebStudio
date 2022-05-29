@@ -160,3 +160,11 @@ ul{
 .info{
     color: var(--text-color);
 }
+
+.logof{
+    color: var(--secondary-color);
+    font-family: Raleway, sans-serif;
+    font-style: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
