@@ -18,7 +18,7 @@
 }
 .logo-span,
 .nav-link:hover,
-.nav-link:focus
+.nav-link:focus,
 .list-item:hover,
 .list-item:focus,
 .info:hover,
@@ -55,7 +55,7 @@
     text-align: center;
 }
 
-.list{
+.nav-list{
     list-style: none;
 }
 
