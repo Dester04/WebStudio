@@ -1,3 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 :root{
     --primary-color: #212121;
     --text-color: #757575;
@@ -149,10 +159,12 @@ ul{
 
 .link-text{
     color: var(--primary-color);
-}
-
-.li-button{
-    background-color: #F5F4FA;
+    display: inline-block;
+    border-radius: 4px;
+    width: 73px;
+    height: 38px;
+    border: 1px solid black;
+    padding: 6px 22px;
 }
 
 .info{
