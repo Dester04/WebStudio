@@ -46,12 +46,20 @@ html{
 
 .list-item{
     color: var(--text-color) ;
+    margin-right: 54px;
+
+}
+
+.list-item:last-child{
+    margin-right: 0;
 }
 
 /* Hero-section */
 
 .hero-section{
     background-color: #2F303A;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .hero-title{
@@ -61,6 +69,9 @@ html{
     font-size: 44px;
     line-height: 1.2;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
 }
 
 .nav-list{
@@ -119,10 +130,14 @@ html{
     font-style: 400;
     font-size: 14px;
     line-height: 1.2;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
 .footer{
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-link{
@@ -131,6 +146,8 @@ html{
     font-style: 400;
     font-size: 14px;
     line-height: 1.2;
+    margin-top: 9px;
+    margin-left: 0px;
 }
 
 .button{
@@ -141,6 +158,14 @@ html{
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
+    border: none;
+    border-radius: 3px;
+    width: 152px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 body{
@@ -177,8 +202,52 @@ ul{
     font-style: 700;
     font-size: 26px;
     line-height: 1.2;
+    margin-left: 40px;
 }
 
 .team{
     background-color: #F5F4FA;
 }
+
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul{
+    margin-top: 0;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+}
+
+
+.link-list{
+    display: flex;
+}
+
+.link-list li + li{
+    margin-left: 50px;
+}
+
