@@ -385,3 +385,8 @@ margin-bottom: 50px;
 .li-button:hover{
     background-color: var(--accent-color);
 }
+
+.port_cont{
+    padding-left: 50px;
+    padding-right: 50px;
+}
