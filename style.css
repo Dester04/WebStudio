@@ -26,7 +26,7 @@ html{
     line-height: 1.2;
     letter-spacing: 0.03em;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 
 }
 .logo-span,
@@ -106,6 +106,12 @@ html{
 
 .items-descritption{
     color: var(--primary-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2px;
+    letter-spacing: 0.06em;
+    margin-top: 20px;
 }
 
 .h2-title{
@@ -203,12 +209,11 @@ ul{
 
 .link-text{
     color: var(--primary-color);
-    display: inline-block;
-    border-radius: 4px;
-    width: 73px;
-    height: 38px;
-    border: 1px solid black;
-    padding: 6px 22px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .info{
@@ -321,4 +326,62 @@ ul{
     box-shadow: 0px 1px 3px 0px #0000001F;
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+}
+
+.line{
+position: absolute;
+width: 100%;
+height: 0px;
+left: 0px;
+top: 70px;
+border: 0.5px solid #ECECEC;
+}
+
+.filter{
+    display: flex;
+}
+
+.filt_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+}
+
+.li-button{
+margin-right: 8px;
+display: inline-block;
+border-radius: 4px;
+padding: 6px 22px;
+background-color: #F5F4FA;
+margin-bottom: 50px;
+}
+
+.portfolio_image{
+    width: 320px;
+}
+
+.portfolio-small{
+    color: var(--text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+.portfolio_li{
+    border: 1px solid #EEEEEE;
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.examples{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.li-button:hover{
+    background-color: var(--accent-color);
 }
